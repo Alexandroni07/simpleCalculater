@@ -68,3 +68,29 @@ button:active {
 .operator:active {
     background-color: hsl(35, 90%, 75%);
 }
+
+/* Versão Mobile */
+@media (max-width: 490px) {
+    #calculator {
+        width: 100%;
+        max-width: none;
+        border-radius: 5px;
+    }
+
+    #display {
+        padding: 15px;
+        font-size: 3rem;
+    }
+
+    #keys {
+        padding: 15px;
+        gap: 8px;
+    }
+
+    button {
+        width: 80px;
+        height: 80px;
+        border-radius: 40px;
+        font-size: 2em;
+    }
+}
